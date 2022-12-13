@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.left-column {
+    width: 280px;
+    padding: 0 15px 0 15px;
+    border: 1px solid black;
+}
+
+.right-column {
+    padding: 0 15px 0 15px;
+    border: 1px solid black;
+}
+
+header p {
+    text-align: end;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+}
