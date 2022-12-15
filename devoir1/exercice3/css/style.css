@@ -6,6 +6,7 @@
 
 .wrapper {
     width: 990px;
+    background-color:hsla(358,28%, 95%, 0.95);
     margin: 0 auto;
     border: 1px solid black;
 }
@@ -13,26 +14,85 @@
 .left-column {
     width: 280px;
     padding: 0 15px 0 15px;
-    border: 1px solid black;
 }
 
 .right-column {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 640px;
     padding: 0 15px 0 15px;
-    border: 1px solid black;
+}
+
+.thumbnail {
+    float: right;
+    border-top: 2px solid black;
+    padding: 5px 15px 15px 0;
+    margin-right: 5px;
+}
+
+.thumbnail figure {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.thumbnail figcaption {
+    color: #b32;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    text-align: center;
 }
 
 header p {
     text-align: end;
+    margin: 10px 5px 10px 0;
+}
+
+body {
+    background-image: url("../img/back-cover.jpg");
+    background-size: cover;
+}
+
+main {
+    
+    position: relative;
+}
+
+article p, section p, .left-column h1, .logo {
+    margin: 20px 0;
 }
 
 ul {
     list-style: none;
+    text-align: left;
+    border-width: 2px 0;
+    border-style: solid;
+    padding: 10px 0 10px 10px;
 }
 
 li {
     display: inline;
+    border-right: 2px solid black;
+    padding: 0 10px;
 }
 
 li a {
     text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #d86c0c;
+}
+
+footer {
+    border-top: 2px solid black;
+    text-align: end;
+    padding: 20px 5px 5px 0;
 }
