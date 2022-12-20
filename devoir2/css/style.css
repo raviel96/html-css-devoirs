@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.slogan h1, .slogan h2, .slogan p, .jump-description p, .jump-description input, .submit-button, header ul li a, footer ul li a:hover {
+    color: #fff;
+}
+
+.first-container, .second-container, .third-container {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.content-1, .content-2, .second-container, .flex-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jump-description input:hover, figcaption a:hover, footer ul li a {
+    color: #ccc;
+}
+
+.header-container, .flex-list {
+    display: flex;
+}
+
+.submit-button, footer {
+    background-color: #305a47;
+}
+
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;;
+}
+
+.slogan {
+    text-align: center;
+    align-self: flex-end;
+    margin: 100px 0 50px 0;
+}
+
+.slogan h1 {
+    font-size: 50px;
+}
+
+.slogan h2 {
+    font-size: 30px;
+}
+
+.first-container {
+    margin-top: 35px;
+}
+
+.second-container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.third-container {
+    margin-bottom: 70px;
+}
+
+.content-1 {
+    margin-bottom: 30px;
+}
+
+.img-content, .jump  {
+    border: 1px solid black;
+}
+
+.img-content:hover {
+    filter: opacity(50%)
+}
+
+.description {
+    width: 400px;
+}
+
+.description em {
+    color: #aaa;
+}
+
+.author {
+    color: #38b4b4;
+}
+
+.jump-div {
+    position: relative;
+}
+
+.jump-div:hover > .jump-description {
+    visibility: visible;
+}
+
+.jump-div:hover > .jump {
+    filter: brightness(50%);
+}
+
+.jump-description {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+    visibility: hidden;
+}
+
+.jump-description p {
+    font-size: 20px;
+}
+
+.jump-description input {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #0c7f06;
+    border-width: 0;
+}
+
+.thumbnail {
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.thumbnail figure {    
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.third-container, .thumbnail {
+    background-color: #ddeae4;
+}
+
+.third-container, .thumbnail figure {
+    border: 2px solid #305a47;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.form {
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.form p {
+    font-size: 22px;
+}
+
+.input {
+    padding: 5px;
+}
+
+.submit-button {
+    cursor: pointer;
+    border-width: 0;
+}
+
+.submit-button:hover {
+    background-color: #109177;
+}
+
+body {
+    background-image: url("../img/bkgd_page.jpg");
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul li {
+    border: 1px dashed #fff;
+    padding: 10px;
+}
+
+header ul li:hover {
+    background-color: #fff;
+}
+
+header ul li:hover a {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption a {
+    color: crimson;
+}
+
+footer {
+    text-align: center;
+    height: 40px;
+}
+
+footer ul {
+    display: inline-flex;
+}
+
+footer ul li {
+    padding-right: 20px;
+}
