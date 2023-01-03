@@ -18,7 +18,7 @@
     margin-right: 25px;
 }
 
-.content-1, .content-2, .section-books, .flex-input {
+.content-1, .content-2, .section-books {
     display: flex;
     justify-content: space-between;
 }
@@ -166,6 +166,15 @@
 
 .input {
     padding: 5px;
+}
+
+.double-input {
+   display: flex;
+   justify-content: space-between;
+}
+
+.double-input input {
+    width: 49%;
 }
 
 .submit-button {
